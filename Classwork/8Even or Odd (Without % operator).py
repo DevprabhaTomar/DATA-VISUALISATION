@@ -1,0 +1,14 @@
+num = int(input())
+
+if num & 1 == 0:
+    print("Even")
+else:
+    print("Odd")
+    
+    #Input
+
+6
+
+#Output
+
+Even
