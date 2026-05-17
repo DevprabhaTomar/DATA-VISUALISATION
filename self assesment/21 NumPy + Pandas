@@ -1,0 +1,10 @@
+import numpy as np
+import pandas as pd
+
+marks = np.array([80, 75, 90, 60, 85])
+
+df = pd.DataFrame(marks, columns=["Marks"])
+
+print(df)
+print(df["Marks"].max())
+print(df["Marks"].mean())
