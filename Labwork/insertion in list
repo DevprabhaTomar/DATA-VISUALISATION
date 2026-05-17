@@ -1,0 +1,23 @@
+#a list of five numbers
+numbers = [45,4789,34,56]
+#displaying the list
+print("Numbers are : ",numbers)
+print("---------------------------------")
+#to insert 150 at end
+numbers.append(150)
+print("After inserting 150 at end :", numbers)
+print("----------------------------------")
+#creating a list of 5 names
+list2= [23,56,78,90,12]
+#to insert list2 at end of numbers list
+numbers.append(list2)
+print("------------------------------")
+#creating a list of 5 numbers
+list3 = [100,200,300,400,500]
+print("list3 is : " ,list3)
+#to insert list3 at index 2 of numbers list
+numbers.extend(list)
+print("After inserting list3 at index 2 of numbers list : ",numbers)
+numbers.insert(3 ,240)
+print("\n-------------------------------------")
+ print("After inserting 240 at index 3 in numbers list:",numbers)
